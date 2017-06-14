@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73E07401EEEC2A300611FFC /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73E073F1EEEC2A300611FFC /* Flickr.swift */; };
+		D73E07421EEECCC000611FFC /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73E07411EEECCC000611FFC /* FlickrPhoto.swift */; };
+		D73E07441EEECD0200611FFC /* FlickrSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73E07431EEECD0200611FFC /* FlickrSearchResult.swift */; };
 		D7DCAEB91EE9C7630054FCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCAEB81EE9C7630054FCA3 /* AppDelegate.swift */; };
 		D7DCAEBB1EE9C7630054FCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCAEBA1EE9C7630054FCA3 /* ViewController.swift */; };
 		D7DCAEBE1EE9C7640054FCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DCAEBC1EE9C7640054FCA3 /* Main.storyboard */; };
 		D7DCAEC01EE9C7640054FCA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DCAEBF1EE9C7640054FCA3 /* Images.xcassets */; };
 		D7DCAEC31EE9C7640054FCA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DCAEC11EE9C7640054FCA3 /* LaunchScreen.xib */; };
 		D7DCAECF1EE9C7640054FCA3 /* persona_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCAECE1EE9C7640054FCA3 /* persona_1Tests.swift */; };
+		D7DCAED91EEE8F7A0054FCA3 /* PersonaPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCAED81EEE8F7A0054FCA3 /* PersonaPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D73E073F1EEEC2A300611FFC /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		D73E07411EEECCC000611FFC /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		D73E07431EEECD0200611FFC /* FlickrSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResult.swift; sourceTree = "<group>"; };
 		D7DCAEB31EE9C7630054FCA3 /* persona_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = persona_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DCAEB71EE9C7630054FCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DCAEB81EE9C7630054FCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		D7DCAEC81EE9C7640054FCA3 /* persona_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = persona_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DCAECD1EE9C7640054FCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DCAECE1EE9C7640054FCA3 /* persona_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persona_1Tests.swift; sourceTree = "<group>"; };
+		D7DCAED81EEE8F7A0054FCA3 /* PersonaPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonaPhotoViewController.swift; path = persona_1/PersonaPhotoViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,13 @@
 		D7DCAEB51EE9C7630054FCA3 /* persona_1 */ = {
 			isa = PBXGroup;
 			children = (
+				D73E07431EEECD0200611FFC /* FlickrSearchResult.swift */,
+				D73E07411EEECCC000611FFC /* FlickrPhoto.swift */,
+				D73E073F1EEEC2A300611FFC /* Flickr.swift */,
 				D7DCAEB81EE9C7630054FCA3 /* AppDelegate.swift */,
 				D7DCAEBA1EE9C7630054FCA3 /* ViewController.swift */,
 				D7DCAEBC1EE9C7640054FCA3 /* Main.storyboard */,
+				D7DCAED81EEE8F7A0054FCA3 /* PersonaPhotoViewController.swift */,
 				D7DCAEBF1EE9C7640054FCA3 /* Images.xcassets */,
 				D7DCAEC11EE9C7640054FCA3 /* LaunchScreen.xib */,
 				D7DCAEB61EE9C7630054FCA3 /* Supporting Files */,
@@ -156,6 +168,7 @@
 		D7DCAEAB1EE9C7630054FCA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Purnima Singh";
 				TargetAttributes = {
@@ -213,6 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DCAEBB1EE9C7630054FCA3 /* ViewController.swift in Sources */,
+				D7DCAED91EEE8F7A0054FCA3 /* PersonaPhotoViewController.swift in Sources */,
+				D73E07401EEEC2A300611FFC /* Flickr.swift in Sources */,
+				D73E07441EEECD0200611FFC /* FlickrSearchResult.swift in Sources */,
+				D73E07421EEECCC000611FFC /* FlickrPhoto.swift in Sources */,
 				D7DCAEB91EE9C7630054FCA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +428,7 @@
 				D7DCAED41EE9C7640054FCA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7DCAED51EE9C7640054FCA3 /* Build configuration list for PBXNativeTarget "persona_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +437,7 @@
 				D7DCAED71EE9C7640054FCA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
