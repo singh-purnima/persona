@@ -19,6 +19,7 @@
 		D7572B4C1EFC094C00B9C356 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7572B4B1EFC094C00B9C356 /* FlickrPhoto.swift */; };
 		D7572B4E1EFC095B00B9C356 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7572B4D1EFC095B00B9C356 /* FlickrSearchResults.swift */; };
 		D7572B521EFC4FD000B9C356 /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7572B511EFC4FD000B9C356 /* FlickrPhotoCell.swift */; };
+		D7A6E3141EFD17F700612B9D /* FlickrPhotoHeaderViewCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6E3131EFD17F700612B9D /* FlickrPhotoHeaderViewCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D7572B4B1EFC094C00B9C356 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrPhoto.swift; path = ../../../FlickrFiles/FlickrPhoto.swift; sourceTree = "<group>"; };
 		D7572B4D1EFC095B00B9C356 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrSearchResults.swift; path = ../../../FlickrFiles/FlickrSearchResults.swift; sourceTree = "<group>"; };
 		D7572B511EFC4FD000B9C356 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
+		D7A6E3131EFD17F700612B9D /* FlickrPhotoHeaderViewCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoHeaderViewCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				D7572B251EFBFEF000B9C356 /* Info.plist */,
 				D7572B471EFC046800B9C356 /* FlickrPhotosViewController.swift */,
 				D7572B511EFC4FD000B9C356 /* FlickrPhotoCell.swift */,
+				D7A6E3131EFD17F700612B9D /* FlickrPhotoHeaderViewCollectionReusableView.swift */,
 			);
 			path = persona_1;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				D7572B4A1EFC07B700B9C356 /* Flickr.swift in Sources */,
 				D7572B4C1EFC094C00B9C356 /* FlickrPhoto.swift in Sources */,
 				D7572B1A1EFBFEF000B9C356 /* AppDelegate.swift in Sources */,
+				D7A6E3141EFD17F700612B9D /* FlickrPhotoHeaderViewCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
