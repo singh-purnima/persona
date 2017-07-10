@@ -6,6 +6,14 @@ xcuserdata
 .idea
 *.iml
 *.ipr
+.settings
+.project
+.classpath
+.gradle
+local.properties
+build/
+catalina.base_IS_UNDEFINED/
+*.log
 
 # Backup Files #
 ################
