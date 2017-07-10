@@ -1,0 +1,26 @@
+buildscript {
+    ext {
+    }
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.bmuschko:gradle-tomcat-plugin:2.2.5"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+subprojects {
+
+    repositories {
+        mavenLocal()
+        jcenter()
+        mavenCentral()
+    }
+}
